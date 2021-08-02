@@ -1,0 +1,284 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+/* .menu {
+    list-style-type: none;
+    padding: 5px;
+} */
+
+/* subItem */
+
+/* nav ul ul {
+    position: absolute;
+    display: none;
+    background-color:transparent;
+    top: -5px;
+    left: 102px;
+} */
+
+/* ul li:hover ul {
+    display: block;
+} */
+
+
+
+/* nav ul ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* header nav li {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px white;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 1s;
+    position: relative;
+    background-color: black;
+    width: 35vw;
+} */
+
+/* footer nav li {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px white;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 1s;
+    position: relative;
+    background-color: black;
+    width: 10vw;
+} */
+
+/* .zocaloInferior {
+    background-color: black;
+    top: 2px;
+    border:cornsilk solid 3px;
+    height: 80px;
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 1/4;
+    width: 105vw;
+} */
+
+
+
+
+/* .tituloSecundario {
+    color:rgb(156, 156, 156);
+} */
+
+ 
+/* aside ul>li {
+    list-style: none;
+} */
+
+/* .ranking {
+    color: brown;
+    background-color: darkblue;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    border: solid 2px darkcyan;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap
+} */
+
+/* #novedades {
+    color: black;
+    font-size: xx-large;
+    text-align:left;
+}
+
+.bicicleta {
+    background-image: url(../ASSETS/ironman.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1220px;
+}
+
+#tablaDeBici {
+    text-align: center;
+}
+
+#tituloDeTabla {
+    background-color: chartreuse;
+    color: darkblue;
+    border-color: black;
+} */
+
+/* header>nav {
+        text-decoration: none;
+} */
+
+/* footer {
+    background-color: black;
+} */
+
+    /* Hover boton */
+
+
+
+    /* imagen principal home */
+
+
+
+/* .imagenContacto {
+    background-image: url(../ASSETS/swimming);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.suscripcion {
+    margin-top: 10px;
+    margin-left:15px;
+}
+
+textarea {
+    margin-top: 20px;
+}
+
+form {
+    color: honeydew;
+} */
+
+/* flex row */
+
+/* .zocaloFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+}
+
+/*.redesFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    width: 100vw;
+} */
+
+/* flex column */
+
+.clase {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontal */
+    justify-content: center; /* vertical */
+}
+
+/* i {
+    font-size: 2rem;
+    margin: 0.2rem;
+    color: brown;
+}
+
+.solo {
+    flex-grow: 2;
+}
+
+.video {    
+    padding-bottom: 85%; /* 16/9 ratio */
+    padding-top: 85px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-content: center;
+    width: 100%    !important;
+    height: auto   !important;
+} */
+
+/* #cuerpoGrid {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 25% 25% 10% 35% 5% ;
+    gap: .5rem;
+} */
+
+@media only screen and (min-width: 480px) {
+
+    /* body {
+            background-color: #000000;
+      } */
+
+    /* #cuerpoGrid {
+        display: grid;
+        grid-template-columns: 40% 40% 20% ;
+        grid-template-rows: 20% 20% 60%  ;
+        gap: .5rem;
+        margin: 2rem 0;
+    } */
+
+    /* .card {
+        column-gap: .1rem;
+        margin-left: 4rem;
+    } */
+
+    /* .ranking {
+        color: brown;
+        background-color: rgb(101,122,98);
+        grid-column: 3/4;
+        grid-row: 1/4;
+        border: solid 2px rgb(114, 114, 114);
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column wrap
+    } */
+
+/* 
+    nav ul ul {
+        position: absolute;
+        display: none;
+        background-color:transparent;
+        top: 30px;
+        left: -30px;
+    }
+
+    nav li {
+        display: flex;
+        flex-direction: row;
+        border: solid 2px white;
+        padding: 2px;
+        border-radius: 5px;
+        transition: 1s;
+        position: relative;
+        width: 8vw;
+        background-color: black;
+        justify-content: center;
+    } */
+
+    /* .zocaloInferior {
+        background-image: linear-gradient(to top, black, rgb(58, 58, 70));
+        top: 2px;
+        display: flex;
+        border:cornsilk solid 3px;
+        height: 80px;
+    }
+    
+    .video {
+        display: grid;
+        justify-content: center;
+        align-content:flex-start;
+        position: relative;
+        padding-bottom: 56.25%; /* 16/9 ratio */
+       /* padding-top: 50px; /* IE6 workaround*/
+       /* height: 0;
+        overflow: hidden;
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+} */
+    
