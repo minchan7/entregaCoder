@@ -1,8 +1,9 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../bootstrap.scss";
 
 @import "bike";
 
-@import "contact";
+@import 'contact';
 
 /* Tipografias
 
@@ -20,7 +21,7 @@ a {
 
 #tituloPrincipal__H1--propiedades {
     
-    font:{
+    font: {
         family: 'Roboto', sans-serif;
         weight: normal;
         size: 6vw;
