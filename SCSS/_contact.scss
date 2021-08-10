@@ -1,4 +1,9 @@
 
+.form__titulo--estilos {
+    
+    align-items: center;
+}
+
 .imagenContacto {
     background-image: url(../ASSETS/swimming.jpg);
     background-repeat: no-repeat;
@@ -16,7 +21,7 @@ textarea {
 }
 
 form {
-    color: red;
+    color: rgb(224, 224, 224);
     display: flex;
     flex-direction: column;
     justify-content: center;
