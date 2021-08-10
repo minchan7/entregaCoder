@@ -1,0 +1,41 @@
+[33mcommit 2fed68eb63f26b170a7df8842be01927235262f9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/correcciones[m[33m, [m[1;32mcorrecciones[m[33m)[m
+Author: seba Minchan <seba.minchan@gmail.com>
+Date:   Mon Aug 9 21:05:41 2021 -0300
+
+    arregle algunos enlaces que estaban caidos
+
+[33mcommit 6337f3e22b82af0cc2482fb20cefee777a310d3d[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: seba Minchan <seba.minchan@gmail.com>
+Date:   Wed Aug 4 23:32:49 2021 -0300
+
+    sigo modificando las rutas de enlace
+
+[33mcommit b84e80576eb7fc1007d627f59520cc9aa980d573[m
+Author: seba Minchan <seba.minchan@gmail.com>
+Date:   Wed Aug 4 23:21:55 2021 -0300
+
+    modifique las rutas de enlace
+
+[33mcommit c48043e0a27c03bbed158f08e1f885f0869dc33e[m
+Author: seba Minchan <seba.minchan@gmail.com>
+Date:   Wed Aug 4 22:55:42 2021 -0300
+
+    saque el index de la carpeta HTML
+
+[33mcommit 1845a2ba5feb125d25bfff48d5c40cdab2f1f352[m[33m ([m[1;32mmi_rama[m[33m)[m
+Author: seba Minchan <seba.minchan@gmail.com>
+Date:   Mon Aug 2 11:29:08 2021 -0300
+
+    cambie el color de la tipografia
+
+[33mcommit b95154010fce53e7f2cac69574f3cb9cf04e5c4a[m
+Author: seba Minchan <seba.minchan@gmail.com>
+Date:   Mon Aug 2 10:43:34 2021 -0300
+
+    agregue flexbox al form
+
+[33mcommit 7a55d82b70f5e246cd193689d915827e5ed4c7ac[m
+Author: seba Minchan <seba.minchan@gmail.com>
+Date:   Mon Aug 2 08:55:48 2021 -0300
+
+    repositorio_inicial
