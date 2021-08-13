@@ -4,26 +4,46 @@
   height: 800px;
 }
 
-.suscripcion {
-  margin-top: 10px;
-  margin-left: 15px;
+.form__titulo--estilos {
+  align-items: center;
+  margin: 1em 5em 5em 8em;
+  color: brown;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5em;
+}
+
+.form__contenido--estilos {
+  flex-direction: column;
+  margin: -13em 1em 4em 18em;
+}
+
+.form__fieldset--legend {
+  font-size: 1em;
+  font-weight: bold;
+  color: #D3232D;
 }
 
 textarea {
   margin-top: 20px;
-  background-color: black;
+  background-color: #ebe9e9;
+  margin-bottom: 1em;
 }
 
 form {
-  color: red;
+  color: #e0e0e0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  display: flex;
+  align-items: center;
   flex-wrap: nowrap;
   width: 50vw;
   height: 100vh;
   margin: 5em 5em 5em 10em;
+  background-color: #263636;
+  padding: 1em;
+  border-radius: 8px;
+  border: solid 1px black;
 }
 
 .bicicleta {
@@ -38,8 +58,8 @@ form {
 }
 
 #tituloDeTabla {
-  background-color: #1e3a02;
-  color: darkblue;
+  background-color: #bfec91;
+  color: #6d6df8;
   border-color: black;
 }
 

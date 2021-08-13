@@ -34,36 +34,47 @@
         </nav>
     </header>
     
-    <h1 class="tituloSecundario__H2--color form__titulo--estilos">CONTACTO</h1>
+    <h1 class="form__titulo--estilos">CONTACTO</h1>
 
-    <form action="POST">
+    <form action="POST" class="form__contenido--estilos">
         <fieldset>
-            <div>
-                <legend>INFORMACION PERSONAL</legend>
-                <label for="nombre">nombre:</label>
-                <input type="text" name="nombre">
-                <label for="apellido">apellido:</label>
-                <input type="text" name="apellido">
-            </div>
-            <label for="mail">mail:</label>
-            <input type="email" name="mail" id="">
-            <input type="radio" name="sexo" value="hombre">
-            <label for="sexo">hombre:</label>
-            <input type="radio" name="sexo" value="mujer">
-            <label for="sexo">mujer:</label>
-            <select name="interes" id="">
-                <option disabled selected>Interes</option>
-                <option value="soltero/a">Triatlon</option>
-                <option value="Casado/a">Running</option>
-                <option value="divorciado/a">Bike</option>
-                <option value="otro">Swimming</option>
-            </select>
-        </fieldset>
+            
+                <legend class="form__fieldset--legend">INFORMACION PERSONAL</legend>
 
-        <div class="suscripcion">
-            <label for="acepta">acepto suscrbirme a newslatter</label>
-            <input type="checkbox" name="acepta" value="1">
-        </div>  
+                <div>
+                    <label for="nombre">nombre:</label>
+                    <input type="text" name="nombre">
+                    <label for="apellido">apellido:</label>
+                    <input type="text" name="apellido">
+                </div>
+            
+            <fieldset>
+                <legend class="form__fieldset--legend">MAIL</legend>
+                <label for="mail"></label>
+                <input type="email" name="mail" id="">
+                <select name="interes" id="">
+                    <option disabled selected>Interes</option>
+                    <option value="soltero/a">Triatlon</option>
+                    <option value="Casado/a">Running</option>
+                    <option value="divorciado/a">Bike</option>
+                    <option value="otro">Swimming</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend class="form__fieldset--legend">SEXO</legend>
+                <input type="radio" name="sexo" value="hombre">
+                <label for="sexo">hombre:</label>
+                <input type="radio" name="sexo" value="mujer">
+                <label for="sexo">mujer:</label>
+            </fieldset>
+        
+
+            <fieldset>
+                <legend class="form__fieldset--legend">SUSCRIPCION</legend>
+                <label for="acepta">acepto suscrbirme a newslatter</label>
+                <input type="checkbox" name="acepta" value="1">
+            </fieldset>  
+        </fieldset>
 
         <textarea name="" id="" cols="50" rows="15" placeholder="comentarios"></textarea>
 
