@@ -19,7 +19,7 @@ a {
     list-style-type: none;
 } 
 
-#tituloPrincipal__H1--propiedades {
+.tituloPrincipal__H1--propiedades {
     
     font: {
         family: 'Roboto', sans-serif;
@@ -36,6 +36,10 @@ a {
     font: {
         weight: bold;
     }
+}
+
+.section__titulo--video {
+    margin: 61rem 5rem 10rem -17rem;
 }
 
 .header__navMenu {
@@ -98,16 +102,6 @@ i {
     height: auto   !important;
 }
 
-// footer {
-//     background-color: black;
-// }
-
-
-// nav ul ul li {
-//     display: block;
-//     position: relative;
-//     margin: 5px 50px 5px -5px;
-//     }
 
 .navMenu__subItem--link {
     display: flex;
@@ -246,6 +240,10 @@ footer nav li {
         width: 99vw;
     }
 
+    .body__section--videos {
+        display: flex;
+        flex-direction: row;
+    }
 
     nav li {
         display: flex;
